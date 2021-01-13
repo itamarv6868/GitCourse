@@ -1,2 +1,3 @@
 # GitCourse
-# Dedicated for real time group
+# Dedicated for Real Time group
+# learning git puhs
