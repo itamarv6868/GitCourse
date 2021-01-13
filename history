@@ -1,0 +1,618 @@
+    1  whoami
+    2  hostname
+    3  pwd
+    4  cd
+    5  ls
+    6  cd Desktop
+    7  ls
+    8  cat hello.txt
+    9  echo "HELLO" >> /DEV/PTS/2
+   10  pwd
+   11  gedit 1.txt
+   12  sudo apt install gedit
+   13  gedit 1.txt
+   14  sudo apt install geany
+   15  sudo apt update
+   16  apt search sqllite
+   17  apt search sqlite
+   18  apt-cache search sqlite
+   19  ls
+   20  ls -l
+   21  gedit 1
+   22  file 1.txt
+   23  ./1.txt
+   24  cat 1.txt
+   25  ls -l
+   26  ls-l
+   27  ls -l
+   28  nm 1
+   29  nm
+   30  xxd 1.txt
+   31  pwd
+   32  ls -l
+   33  cd Desktop
+   34  ls -l
+   35  cd
+   36  ls
+   37  sudo apt install tree
+   38  man tree
+   39  cd /
+   40  ls
+   41  cd bin
+   42  ls
+   43  ll
+   44  cd //
+   45  cd..
+   46  cd ..
+   47  ls
+   48  alias ll
+   49  cd dev
+   50  ls
+   51  ll
+   52  ls
+   53  tty
+   54  echo heloo itamar
+   55  cd //
+   56  cd ..
+   57  cd etc
+   58  ls
+   59  cd ..
+   60  cd tmp
+   61  ls
+   62  cd ..
+   63  cd usr
+   64  ls
+   65  cd ..
+   66  cd bin
+   67  ls
+   68  pwd
+   69  cd ..
+   70  ls
+   71  cd home 
+   72  ls
+   73  cd itamar
+   74  cd ..
+   75  ls
+   76  cd root
+   77  ll
+   78  echo ~
+   79  echo /~
+   80  cd /lib
+   81  ls
+   82  locate stdio.h
+   83  cd proc
+   84  cd ..
+   85  cd proc
+   86  ls
+   87  cat spu info
+   88  cd ..
+   89  cat cpuinfo
+   90  cd proc
+   91  cat cpuinfo
+   92  pwd
+   93  cd ..
+   94  pwd
+   95  cd sys 
+   96  ls
+   97  cd power
+   98  ls
+   99  cd ..
+  100  cd mem_sleep
+  101  ls
+  102  cd kernel
+  103  ls
+  104  cd ..
+  105  cd  ..
+  106  Vi
+  107  vi
+  108  nano txt.1
+  109  wget https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png
+  110  sleep 3
+  111  wc 1.txt
+  112  bc
+  113  date
+  114  date +%y
+  115  +%m
+  116  +%y-%m-%d
+  117  +Yy-%m-%d
+  118  +%Y-%m-%d
+  119  date +%Y-%m-%d
+  120  sudo apt install zsh
+  121  sudo apt install ksh
+  122  pwd
+  123  nano .hidden.txt
+  124  s
+  125  ls
+  126  ls -a
+  127  ls .hidden.txt
+  128  ls -l
+  129  ls -l -a
+  130  mkdir dir1
+  131  cd dir1
+  132  touch a b c d
+  133  ls
+  134  cd ..
+  135  ls -l dir1
+  136  ls dir1
+  137  ls ?.txt
+  138  find dir1
+  139  cd ..
+  140  find hello_linux
+  141  find heloo_linux
+  142  cd -
+  143  man date
+  144  pwd
+  145  mkdir docs
+  146  cd docs
+  147  nano a.txt
+  148  nano b.txt
+  149  cd //
+  150  cd ..
+  151  pwd
+  152  cd ..
+  153  pwd
+  154  cd home
+  155  cd docs
+  156  cs itamar
+  157  cd itamar
+  158  cd docs
+  159  ls
+  160  ll
+  161  cd ..
+  162  pwd
+  163  mkdir abc
+  164  cd abc/
+  165  mkdir logs
+  166  cd logs/
+  167  echo "Login.log"
+  168  vi
+  169  Login.log vi
+  170  vi Login.log
+  171  neno Login.log
+  172  Login.log nano
+  173  nano
+  174  *.log
+  175  cd ..
+  176  *.log
+  177  cd logs
+  178  llll
+  179  ll
+  180  ls
+  181  mkdir Source_Control
+  182  pwd
+  183  git
+  184  sudo apt install git
+  185  pwd
+  186  cd
+  187  pwd
+  188  ls
+  189  git clone https://github.com/moby/moby.git
+  190  ls
+  191  cd moby
+  192  ls
+  193  pwd
+  194  ll
+  195  cd
+  196  pwd
+  197  ls
+  198  cd Documents/
+  199  pwd
+  200  mkdir firstproject
+  201  cd firstproject
+  202  pwd
+  203  git init
+  204  ll
+  205  echo "My First file at the repo" > test.txt
+  206  echo "my first file at the repo" > test.txt
+  207  ls
+  208  cat test.txt 
+  209  caler
+  210  clear
+  211  pwd
+  212  git status
+  213  gia add test.txt
+  214  gir add test.txt
+  215  git add test.txt
+  216  git status
+  217  ll
+  218  ls
+  219  touch a b 
+  220  ls
+  221  gis status
+  222  git status
+  223  git add .
+  224  git status
+  225  git rm a -f
+  226  ls
+  227  git status
+  228  ls
+  229  rm -f b
+  230  ls
+  231  git status
+  232  git add .
+  233  git status
+  234  touch b 
+  235  ls
+  236  git status
+  237  git add .
+  238  ls
+  239  git status
+  240  git rm b --cached 
+  241  git status
+  242  ls
+  243  rm - f b
+  244  rm -f b
+  245  ls
+  246  git status
+  247  git commit -m "Amessage about the commit"
+  248  git config --global user.name "Itamar Vidal"
+  249  git commit -m "Amessage about the commit"
+  250  git status
+  251  ls
+  252  touch abc
+  253  git status
+  254  rm abc
+  255  git status
+  256  touch test2 
+  257  git status
+  258  pwd
+  259  .log
+  260  *.log
+  261  log.
+  262  cslogs
+  263  cd logs
+  264  .log
+  265  *.log
+  266  -s
+  267  ls .log
+  268  ll .log
+  269  find .log
+  270  pwd
+  271  cat error.log
+  272  cd -
+  273  cd docs
+  274  pwd
+  275  cat a.txt >> b.txtcat a.txt >> b.txt
+  276  cat b.txt
+  277  cat a.txt >> b.txt
+  278  cat b.txt
+  279  cata.txt
+  280  cat a.txt
+  281  mkdir home/itamar/cbdefg
+  282  pwd
+  283  cd ..
+  284  pwd
+  285  cd ..
+  286  pwd
+  287  mkdir defg
+  288  cd defg
+  289  cp -r /Home/itamar/abc /itamar/defg
+  290  cp -r /Home/itamar/abc Home/itamar/defg
+  291  cp  /Home/itamar/abc Home/itamar/defg
+  292  cd ..
+  293  pwd
+  294  cp -r /Home/itamar/abc /itamar/defg
+  295  cp -r /Home/itamar/abc  /itamar/defg
+  296  cd/
+  297  cd /
+  298  pwd
+  299  cp  –r /home/itamar/abc /itamar/defg
+  300  cp  –r /home/itamar/abc home/itamar/defg
+  301  gedit /home/benny/.config 
+  302  gedit /home/itamar/.config
+  303  gedit /home/itamar/.con
+  304  ls -a /home/itamar/
+  305  cd /home/itamar/docs
+  306  cd /home/itamar/abc/docs
+  307  cat *.txt
+  308  echo "Login.log" > Login.log
+  309  echo "error1.log" > error1.log 
+  310  echo "error2.log" > error2.log 
+  311  ll
+  312  *.log
+  313  ls - s
+  314  ls -s
+  315  echo error2.log
+  316  *.txt 
+  317  cd ..
+  318  pwd
+  319  *.txt 
+  320  * .txt
+  321  ls .log
+  322  ls * .log
+  323  ls *.log
+  324  ls *.txt
+  325  cd ..
+  326  ls *.txt
+  327  ls *.log
+  328  ls -s
+  329  cd -
+  330  cd /
+  331  pwd
+  332  cd -
+  333  cp  –r /home/itamar/abc  /itamar/defg 
+  334  cp  /home/itamar/abc  /itamar/defg 
+  335  cp -r /home/itamar/abc  /itamar/defg 
+  336  cp -r /Home/itamar/abc  Home/itamar/defg 
+  337  cp -r /home/itamar/abc  /home/itamar/defg 
+  338  rm -r /home/itamar/abc/logs
+  339  rm -r /home/itamar/abc/docs
+  340  pwd
+  341  cd defg
+  342  ls
+  343  cd abc
+  344  pwd
+  345  cat *.txt
+  346  cat .txt
+  347  cd docs
+  348  cat *.txt
+  349  ls *.txt
+  350  cd logs
+  351  cs ..
+  352  cd ..
+  353  cd logs
+  354  ls *.txt
+  355  ls *.log
+  356  cd ..
+  357  ls *.log
+  358  pwd
+  359  ls /home/itamar/defg/abc/cods *.txt
+  360  ls ./txt
+  361  ls ./docs
+  362  ls .txt/docs
+  363  ls ./docs
+  364  pwd
+  365  ls ./abc/*.txt
+  366  ls ./docs/*.txt
+  367  ls ./logs/*.log
+  368  grep .txt
+  369  tty
+  370  find .-name *txt
+  371  find .-name *.txt
+  372  ls -l
+  373  cd home
+  374  cd ..
+  375  link ./docs/a.txt link.txt
+  376  cd docs
+  377  cd /cods
+  378  cd /itamar/defg/abc
+  379  num vim
+  380  help vim
+  381  man vim
+  382  history
+  383  cd itamar
+  384  history > historyorders
+  385  pwd
+  386  cd ./abc
+  387  cd /abc
+  388  cd defg/abc
+  389  pwd
+  390  ls
+  391  ll
+  392  sudo apt install tree
+  393  nam find
+  394  help find
+  395  man -k find
+  396  man find
+  397  type find
+  398  type ls
+  399  ls -a
+  400  ls -A 
+  401  shmuel@rt-ed.co.il
+  402  mkdir dir1 dir2 dir3
+  403  touch a.txt b.pdf c.txt d.c
+  404  ls
+  405  echo *
+  406  cd ..
+  407  ls
+  408  echo abc/*
+  409  echo /home/itamar/*
+  410  ls
+  411  cd abc
+  412  ls *.txt
+  413  ls -l -a *.txt
+  414  nam globbing
+  415  man globbing
+  416  ls -la .*.txt *.txt
+  417  nano .hidden.txt
+  418  ls -la .*.txt *.txt
+  419  ls -la  *.txt
+  420  tree
+  421  touch info1.txt info2.txt
+  422  ls -l ?.txt
+  423  ls -l *.txt
+  424  ls -l ???.txt
+  425  ls -l ?????.txt
+  426  echo [a-z].txt
+  427  touch dir1/aa.txt dir1/bb.txt
+  428  ls *.txt
+  429  ls
+  430  find
+  431  find -name=*.txt
+  432  find -name=*.pdf
+  433  find -name="*.txt"
+  434  pwd
+  435  ls
+  436  find -name "*.txt"
+  437  tree
+  438  find -name "*.txt"
+  439  find -name= "*.txt"
+  440  find -name="*.txt"
+  441  find -name *.txt
+  442  pwd
+  443  ls
+  444  cp a.txt dir3/1.txt
+  445  cd dir3
+  446  ls
+  447  cd ..
+  448  cd itamar
+  449  cd ..
+  450  pwd
+  451  touch linux2021
+  452  cp /home/itamar/defg/acb linux2021
+  453  cp /home/itamar/defg/acb /home/itamar/linux2021
+  454  cp /home/itamar/defg/abc /home/itamar/linux2021
+  455  cp -r  /home/itamar/defg/abc /home/itamar/linux2021
+  456  pwd
+  457  cd /itamar
+  458  cd itamr
+  459  cd itamar
+  460  mkdir linux2021
+  461  cp  /home/itamar/defg/abc /home/itamar/linux2021
+  462  cp -r  /home/itamar/defg/abc /home/itamar/linux2021
+  463  pwd
+  464  cd linux2020
+  465  cd linux2021
+  466  pwd
+  467  mkdir -p a/b/c
+  468  tree
+  469  geany 1.txt 2.txt
+  470  cat 1.txt 2.txt
+  471  cat /usr/include/stdio.h
+  472  cd ..
+  473  cat /usr/include/stdio.h
+  474  cd ..
+  475  cat /usr/include/stdio.h
+  476  cd itamar
+  477  cd home
+  478  cd itamar
+  479  cd linux2021
+  480  cd ..
+  481  cd itmar
+  482  cd itamar
+  483  cat /usr/include/stdio.h
+  484  tail -f /dev/pts/2
+  485  pwd
+  486  cd linux2021
+  487  cd defg
+  488  geany 1.txt 2.txt 3.txt
+  489  grep "moshe levi" *.txt
+  490  grep  "moshe levi" *.txt
+  491  geany 1.txt 2.txt 3.txt
+  492  grep -I  "moshe levi" *.txt
+  493  grep -i  "moshe levi" *.txt
+  494  grep -r "moshe"
+  495  grep -v "moshe"
+  496  grep -r -v "moshe"
+  497  geany sizes.txt
+  498  sort sizes.txt 
+  499  sort -n sizes.txt 
+  500  sort -h sizes.txt 
+  501  ls -l -h 
+  502  ls -l -h -s
+  503  git status
+  504  echo "my sec file at to repo" > test1.txt
+  505  git status
+  506  git log
+  507  git status
+  508  ll
+  509  touch a b 
+  510  ls
+  511  git status
+  512  git log
+  513  git add a b 
+  514  git status 
+  515  git rm a -f
+  516  git status 
+  517  ls
+  518  git rm b --cached 
+  519  git status 
+  520  ls
+  521  git add . 
+  522  git status 
+  523  git commit -m "Added files: b ant tests
+  524  "
+  525  git log
+  526  git status 
+  527  ls
+  528  cat test1.txt 
+  529  echo "the file has been updated" >> test1.txt
+  530  cat test1.txt 
+  531  ls
+  532  gis statu
+  533  gis status
+  534  git status 
+  535  git add .
+  536  git status 
+  537  git commit -m "modified file test1.txt"
+  538  git log
+  539  cd .git
+  540  ls
+  541  cat HEAD
+  542  ls *
+  543  cd logs
+  544  ls
+  545  cat HEAD
+  546  cd ..
+  547  ls
+  548  cd 
+  549  pwd
+  550  mkdir github
+  551  cd github
+  552  git clone https://github.com/itamarv6868/GitCourse.git
+  553  ls
+  554  cd GitCourse/
+  555  ls
+  556  git status
+  557  ls
+  558  git log
+  559  git pull
+  560  git log
+  561  git clone https://github.com/itamarv6868/GitCourse.git
+  562  git pull
+  563  git log
+  564  git push origin master
+  565  git pull
+  566  git push origin master
+  567  touch history1
+  568  ls
+  569  git status
+  570  git add history1
+  571  git status
+  572  git log
+  573  git pull
+  574  git remote add origin https://github.com/itamarv6868/GitCourse.git
+  575  ls
+  576  touch a 
+  577  git status 
+  578  git add a
+  579  git commit -m "Added file a"
+  580  git log
+  581  git pull
+  582  ls
+  583  git push origin master
+  584  git remote add origin https://github.com/itamarv6868/GitCourse.git
+  585  git push origin master
+  586  cd ..
+  587  ls
+  588  rm -rf GitCourse/
+  589  git clone git https://github.com/itamarv6868/GitCourse.git
+  590  git clone https://github.com/itamarv6868/GitCourse.git
+  591  ls
+  592  git pull
+  593  git log
+  594  touch history
+  595  history >history_$date
+  596  ls
+  597  echo $date
+  598  echo ${date}
+  599  date
+  600  cd ~
+  601  ls -la .ssh
+  602  cd~
+  603  cd ~
+  604  ssh-keygen -t rsa -b 4096
+  605  ls .ssh
+  606  ll .ssh
+  607  cd .ssh
+  608  ls
+  609  cat id_rsa.pub
+  610  cd `
+  611  cd~
+  612  cd itamar
+  613  ssh -T git@github.com
+  614  ls ~/.ssh
+  615  cat ~/.ssh/known_hosts 
+  616  git config remote.origin.url git@github.com:itamarv6868/GitCourse.git
+  617  pwd
+  618  history > history
